@@ -150,8 +150,11 @@ body {
 .sitenav__item:not(:last-child) {
   margin-right: 4rem;
 }
+.sitenav__item {
+  text-align: center;
+}
 .sitenav__link {
-  color: inherit;
+  color: #ffffff;
 }
 
 /* ------------------- MAIN -------------------- */
