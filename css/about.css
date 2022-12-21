@@ -209,12 +209,11 @@ body {
 }
 
 .hero__title {
-  font-family: var(--main-font-family);
+  font-family: "Livvic";
   font-style: normal;
-  font-weight: var(--main-font-weight);
+  font-weight: 700;
   font-size: 64px;
-  line-height: 10rem;
-  margin-right: 180px;
+  line-height: 100px;
 }
 .hero__info {
   width: 730px;
@@ -226,7 +225,6 @@ body {
 .site-divider {
   width: 50px;
   height: 4px;
-  background-color: #79c8c7;
   border: 0;
 }
 .hero__description {
