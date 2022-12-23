@@ -430,6 +430,9 @@ body {
   color: #ffffff;
   margin-right: 40px;
 }
+.links:hover {
+  color: var(--primary-light-coral);
+}
 .connect {
   color: #ffffff;
   mix-blend-mode: normal;
