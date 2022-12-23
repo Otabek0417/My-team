@@ -60,7 +60,7 @@
 
   /* FONTS */
 
-  --main-font-family: "Livic", Arial, Helvetica, sans-serif;
+  --main-font-family: "Livvic", Arial, Helvetica, sans-serif;
   --main-font-size-1: 1.8rem;
   --main-font-size-2: 1.5rem;
   --main-font-weight: 600;
@@ -173,7 +173,8 @@ body {
 .logo-link {
   margin-right: 8rem;
 }
-.logo-link__image {
+.logo-link__image:active {
+  opacity: 0.5;
 }
 .sitenav {
   margin-right: auto;
@@ -186,6 +187,17 @@ body {
 }
 .sitenav__link {
   color: inherit;
+}
+
+.header__btn {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+.sitenav__link:hover {
+  color: var(--primary-light-coral);
 }
 
 /* ------------------- MAIN -------------------- */
@@ -213,6 +225,9 @@ body {
 }
 
 .hero__title {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
   font-size: var(--h1-large-size);
   line-height: 1;
 }
@@ -229,6 +244,10 @@ body {
   border: 0;
 }
 .hero__description {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
   line-height: var(--main-line-height-1);
 }
 
@@ -411,7 +430,6 @@ body {
   color: #ffffff;
   margin-right: 40px;
 }
-
 .connect {
   color: #ffffff;
   mix-blend-mode: normal;
@@ -441,7 +459,9 @@ body {
 .icons__links {
   margin-right: 16px;
 }
-
+.image {
+  color: #002529;
+}
 .footer__heading {
   font-family: var(--main-font-family);
   font-style: normal;
