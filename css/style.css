@@ -87,7 +87,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   font-size: 62.5%;
   height: 100%;
@@ -464,6 +463,12 @@ body {
 }
 .image {
   color: #002529;
+}
+.icons__list {
+  display: flex;
+}
+.icons__item:hover a path {
+  fill: #f67e7e;
 }
 .footer__heading {
   font-family: var(--main-font-family);

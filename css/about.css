@@ -430,6 +430,12 @@ body {
 .icons__links {
   margin-right: 16px;
 }
+.icons__list {
+  display: flex;
+}
+.icons__item:hover a path {
+  fill: #f67e7e;
+}
 
 .footer__heading {
   font-family: var(--main-font-family);
